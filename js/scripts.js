@@ -1,5 +1,15 @@
 
 // Menu Mobile
+var menu = document.getElementById("sliding-header-menu-outer");
+
+document.getElementById('hamburguer-icon').onclick = function (){
+  menu.style['right'] = "0px";
+
+}
+
+document.getElementById("sliding-header-menu-close-button").onclick = function(){
+  menu.style['right'] = "-320px";
+}
 
 
 
